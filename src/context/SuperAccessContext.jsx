@@ -16,7 +16,7 @@ export const SuperAccessProvider = ({ children }) => {
 
   // Hardcoded super credentials
   const SUPER_ID = 'supersuper';
-  const SUPER_PASSWORD = 'Supernova_01';
+  const SUPER_PASSWORD = 'Super_01';
   const SESSION_DURATION = 60 * 60 * 1000; // 1 hour in milliseconds
 
   useEffect(() => {
